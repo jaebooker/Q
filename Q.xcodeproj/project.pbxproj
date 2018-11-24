@@ -16,6 +16,7 @@
 		0D3BFF7221A97C6C0032994A /* QTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF7121A97C6C0032994A /* QTests.swift */; };
 		0D3BFF7D21A97C6C0032994A /* QUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF7C21A97C6C0032994A /* QUITests.swift */; };
 		0D3BFF8B21A991DB0032994A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF8A21A991DB0032994A /* MenuViewController.swift */; };
+		0D3BFF8D21A99AE30032994A /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF8C21A99AE30032994A /* FavouritesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0D3BFF7C21A97C6C0032994A /* QUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUITests.swift; sourceTree = "<group>"; };
 		0D3BFF7E21A97C6C0032994A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D3BFF8A21A991DB0032994A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0D3BFF8C21A99AE30032994A /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0D3BFF6821A97C6C0032994A /* Info.plist */,
 				0D3BFF6021A97C6A0032994A /* Q.xcdatamodeld */,
 				0D3BFF8A21A991DB0032994A /* MenuViewController.swift */,
+				0D3BFF8C21A99AE30032994A /* FavouritesTableViewController.swift */,
 			);
 			path = Q;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D3BFF5C21A97C6A0032994A /* ViewController.swift in Sources */,
+				0D3BFF8D21A99AE30032994A /* FavouritesTableViewController.swift in Sources */,
 				0D3BFF5A21A97C690032994A /* AppDelegate.swift in Sources */,
 				0D3BFF6221A97C6A0032994A /* Q.xcdatamodeld in Sources */,
 				0D3BFF8B21A991DB0032994A /* MenuViewController.swift in Sources */,
