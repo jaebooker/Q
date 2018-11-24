@@ -10,11 +10,24 @@ import UIKit
 
 class FavouritesTableViewController: UITableViewController {
     
-    var data: [String] = []
+    var data: [Restaurant] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        data = ["Cooked Tender Loins", "SF Kale", "Bulba Fett Tea"]
+        let r1 = Restaurant()
+        let r2 = Restaurant()
+        let r3 = Restaurant()
+        
+        r1.name = "Cooked Tender Loins"
+        r1.restaurantDescription = "Get em' hot n' tender!"
+        r2.name = "SF Kale"
+        r2.restaurantDescription = "Kale. Kale. Kale."
+        r3.name = "Bulba Fett Tea"
+        r3.restaurantDescription = "Tea inspired by everyone's favourite Star Trek character"
+        
+        data.append(r1)
+        data.append(r2)
+        data.append(r3)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -37,7 +50,8 @@ class FavouritesTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
-        cell.textLabel?.text = data[indexPath.row]
+        cell.textLabel?.text = data[indexPath.row].name
+        cell.detailTextLabel?.text = data[indexPath.row].restaurantDescription
 
         return cell
     }
