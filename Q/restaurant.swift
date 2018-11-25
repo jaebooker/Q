@@ -13,4 +13,5 @@ class  Restaurant: NSObject {
     public var name: String = ""
     public var restaurantDescription: String = ""
     public var restaurantImage: String = ""
+    public var favourite: Bool = false
 }

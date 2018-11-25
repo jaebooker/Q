@@ -51,11 +51,12 @@ class RestaurantListTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! RestaurantCell
-        cell.restaurantName?.text = data[indexPath.row].name
-        cell.restaurantDescription?.text = data[indexPath.row].restaurantDescription
-        let rimage = UIImage.init(named: data[indexPath.row].restaurantImage)
-        cell.restaurantImage.image = rimage
-        
+//        cell.restaurantName?.text = data[indexPath.row].name
+//        cell.restaurantDescription?.text = data[indexPath.row].restaurantDescription
+//        let rimage = UIImage.init(named: data[indexPath.row].restaurantImage)
+//        cell.restaurantImage.image = rimage
+//        cell.newRestaurant=data[indexPath.row]
+        cell.createRestaurant(nRestaurant: data[indexPath.row])
         return cell
     }
 
