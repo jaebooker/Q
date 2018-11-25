@@ -18,6 +18,10 @@
 		0D3BFF8B21A991DB0032994A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF8A21A991DB0032994A /* MenuViewController.swift */; };
 		0D3BFF8D21A99AE30032994A /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF8C21A99AE30032994A /* FavouritesTableViewController.swift */; };
 		0D3BFF8F21A9BC8E0032994A /* restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF8E21A9BC8E0032994A /* restaurant.swift */; };
+		0D3BFF9121AA3B2B0032994A /* RestaurantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF9021AA3B2B0032994A /* RestaurantListTableViewController.swift */; };
+		0D3BFF9321AA40B70032994A /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF9221AA40B70032994A /* RestaurantCell.swift */; };
+		0D3BFF9521AA4E030032994A /* colorgradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D3BFF9421AA4E030032994A /* colorgradient.jpg */; };
+		0D3BFF9721AA4E170032994A /* tigers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D3BFF9621AA4E170032994A /* tigers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		0D3BFF8A21A991DB0032994A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		0D3BFF8C21A99AE30032994A /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
 		0D3BFF8E21A9BC8E0032994A /* restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurant.swift; sourceTree = "<group>"; };
+		0D3BFF9021AA3B2B0032994A /* RestaurantListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListTableViewController.swift; sourceTree = "<group>"; };
+		0D3BFF9221AA40B70032994A /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		0D3BFF9421AA4E030032994A /* colorgradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colorgradient.jpg; sourceTree = "<group>"; };
+		0D3BFF9621AA4E170032994A /* tigers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tigers.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,8 @@
 		0D3BFF5821A97C690032994A /* Q */ = {
 			isa = PBXGroup;
 			children = (
+				0D3BFF9621AA4E170032994A /* tigers.jpg */,
+				0D3BFF9421AA4E030032994A /* colorgradient.jpg */,
 				0D3BFF5921A97C690032994A /* AppDelegate.swift */,
 				0D3BFF5B21A97C6A0032994A /* ViewController.swift */,
 				0D3BFF5D21A97C6A0032994A /* Main.storyboard */,
@@ -115,6 +125,8 @@
 				0D3BFF8A21A991DB0032994A /* MenuViewController.swift */,
 				0D3BFF8C21A99AE30032994A /* FavouritesTableViewController.swift */,
 				0D3BFF8E21A9BC8E0032994A /* restaurant.swift */,
+				0D3BFF9021AA3B2B0032994A /* RestaurantListTableViewController.swift */,
+				0D3BFF9221AA40B70032994A /* RestaurantCell.swift */,
 			);
 			path = Q;
 			sourceTree = "<group>";
@@ -242,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D3BFF6721A97C6C0032994A /* LaunchScreen.storyboard in Resources */,
+				0D3BFF9521AA4E030032994A /* colorgradient.jpg in Resources */,
 				0D3BFF6421A97C6C0032994A /* Assets.xcassets in Resources */,
+				0D3BFF9721AA4E170032994A /* tigers.jpg in Resources */,
 				0D3BFF5F21A97C6A0032994A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3BFF9321AA40B70032994A /* RestaurantCell.swift in Sources */,
 				0D3BFF8F21A9BC8E0032994A /* restaurant.swift in Sources */,
+				0D3BFF9121AA3B2B0032994A /* RestaurantListTableViewController.swift in Sources */,
 				0D3BFF5C21A97C6A0032994A /* ViewController.swift in Sources */,
 				0D3BFF8D21A99AE30032994A /* FavouritesTableViewController.swift in Sources */,
 				0D3BFF5A21A97C690032994A /* AppDelegate.swift in Sources */,
