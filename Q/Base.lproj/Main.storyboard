@@ -104,12 +104,12 @@
         <!--Find Restaurant-->
         <scene sceneID="16e-Y2-h6q">
             <objects>
-                <viewController id="Ue8-iD-zOm" sceneMemberID="viewController">
+                <viewController id="Ue8-iD-zOm" customClass="MapViewController" customModule="Q" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KWF-57-7gn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="J6S-hM-xXg">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J6S-hM-xXg">
                                 <rect key="frame" x="0.0" y="64" width="375" height="510"/>
                             </mapView>
                         </subviews>
@@ -126,6 +126,9 @@
                         <viewLayoutGuide key="safeArea" id="JDP-TX-rpZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Find Restaurant" id="B94-Wb-SvE"/>
+                    <connections>
+                        <outlet property="mapView" destination="J6S-hM-xXg" id="vCD-Yb-tDU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j44-eh-yIW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
