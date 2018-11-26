@@ -25,6 +25,7 @@
 		0D3BFF9E21AA67690032994A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3BFF9D21AA67680032994A /* libsqlite3.0.tbd */; };
 		0D3BFFA021AADF990032994A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFF9F21AADF990032994A /* MapViewController.swift */; };
 		0D3BFFA221AAE93A0032994A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3BFFA121AAE9390032994A /* CoreLocation.framework */; };
+		0D3BFFA421ABCF140032994A /* restaurantDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3BFFA321ABCF140032994A /* restaurantDetailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		0D3BFF9D21AA67680032994A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		0D3BFF9F21AADF990032994A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0D3BFFA121AAE9390032994A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0D3BFFA321ABCF140032994A /* restaurantDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantDetailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				0D3BFF9021AA3B2B0032994A /* RestaurantListTableViewController.swift */,
 				0D3BFF9221AA40B70032994A /* RestaurantCell.swift */,
 				0D3BFF9F21AADF990032994A /* MapViewController.swift */,
+				0D3BFFA321ABCF140032994A /* restaurantDetailsTableViewController.swift */,
 			);
 			path = Q;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				0D3BFFA021AADF990032994A /* MapViewController.swift in Sources */,
 				0D3BFF8D21A99AE30032994A /* FavouritesTableViewController.swift in Sources */,
 				0D3BFF5A21A97C690032994A /* AppDelegate.swift in Sources */,
+				0D3BFFA421ABCF140032994A /* restaurantDetailsTableViewController.swift in Sources */,
 				0D3BFF6221A97C6A0032994A /* Q.xcdatamodeld in Sources */,
 				0D3BFF8B21A991DB0032994A /* MenuViewController.swift in Sources */,
 			);
