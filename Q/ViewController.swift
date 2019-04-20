@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+struct login {
+    var title = "Practice"
+}
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

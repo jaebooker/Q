@@ -126,6 +126,7 @@
 			children = (
 				0D3BFF9621AA4E170032994A /* tigers.jpg */,
 				0D3BFF9421AA4E030032994A /* colorgradient.jpg */,
+				0D3BFF8E21A9BC8E0032994A /* restaurant.swift */,
 				0D3BFF5921A97C690032994A /* AppDelegate.swift */,
 				0D3BFF5B21A97C6A0032994A /* ViewController.swift */,
 				0D3BFF5D21A97C6A0032994A /* Main.storyboard */,
@@ -135,7 +136,6 @@
 				0D3BFF6021A97C6A0032994A /* Q.xcdatamodeld */,
 				0D3BFF8A21A991DB0032994A /* MenuViewController.swift */,
 				0D3BFF8C21A99AE30032994A /* FavouritesTableViewController.swift */,
-				0D3BFF8E21A9BC8E0032994A /* restaurant.swift */,
 				0D3BFF9021AA3B2B0032994A /* RestaurantListTableViewController.swift */,
 				0D3BFF9221AA40B70032994A /* RestaurantCell.swift */,
 				0D3BFF9F21AADF990032994A /* MapViewController.swift */,
@@ -239,13 +239,16 @@
 				TargetAttributes = {
 					0D3BFF5521A97C690032994A = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					0D3BFF6C21A97C6C0032994A = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 0D3BFF5521A97C690032994A;
 					};
 					0D3BFF7721A97C6C0032994A = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 0D3BFF5521A97C690032994A;
 					};
 				};
@@ -497,7 +500,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.musiacc.Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -515,7 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.musiacc.Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -535,7 +538,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.musiacc.QTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q.app/Q";
 			};
@@ -556,7 +559,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.musiacc.QTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q.app/Q";
 			};
@@ -576,7 +579,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.musiacc.QUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Q;
 			};
@@ -596,7 +599,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.musiacc.QUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Q;
 			};
